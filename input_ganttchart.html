@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>やるべき家事と分担の入力画面</h1>
+
+    <form action="input_do.php" method="post">
+        <p><textarea name ="field" cols="50" rows="2" placeholder="分野（自分時間、食事、選択、掃除、育児）を記入してください"></textarea></p>
+        <p><textarea name ="housework" cols="50" rows="2" placeholder="家事の内容を記入してください"></textarea></p>
+        <p><textarea name ="charge" cols="50" rows="2" placeholder="担当する人を入力してください"></textarea></p>
+        <p><textarea name ="stime" cols="50" rows="2" placeholder="開始時刻を00:00:00（時間:分:秒）の形式で記入してください"></textarea></p>
+        <p><textarea name ="ftime" cols="50" rows="2" placeholder="終了時刻を00:00:00（時間:分:秒）の形式で記入してください"></textarea></p>
+        <button type="submit">登録する</button>
+    </form>
+
+</body>
+</html>
